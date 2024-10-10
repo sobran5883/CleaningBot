@@ -11,11 +11,11 @@ const NavbarMenu = [
     title: "Usecases",
     path: "/usecase",
   },
-  // {
-  //   id: 2,
-  //   title: "Hardware",
-  //   path: "/hardware",
-  // },
+  {
+    id: 2,
+    title: "Hardware",
+    path: "/hardware",
+  },
   {
     id: 3,
     title: "Our Team",

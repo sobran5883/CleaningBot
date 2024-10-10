@@ -1,8 +1,7 @@
 import React from "react";
-import { IoIosArrowRoundForward } from "react-icons/io";
 import Blob from "../../assets/blob.svg";
-import HeroPng from "../../assets/hero1.png";
-import { animate, motion } from "framer-motion";
+import HeroPng from "../../assets/bot.png";
+import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 import { Navigate } from "react-router-dom";
 
@@ -61,28 +60,19 @@ const Hero = () => {
               animate="animate"
               className="flex justify-center md:justify-start"
             >
-            {/* <a
-              href="https://da-pearl.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="primary-btn bg-black/90 shadow-none flex items-center gap-2 group"
-            >
-              Get Started
-              <IoIosArrowRoundForward className="text-xl group-hover:translate-x-2 group-hover:-rotate-45 duration-300" />
-            </a> */}
 
             </motion.div>
           </div>
         </div>
         {/* Hero Image */}
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center scale-[2.5] items-center">
           <motion.img
             initial={{ x: 50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4, ease: "easeInOut" }}
             src={HeroPng}
             alt=""
-            className="w-[300px] xl:w-[350px] relative z-10 drop-shadow"
+            className=" relative z-10 drop-shadow scale-100"
           />
           <motion.img
             initial={{ x: -50, opacity: 0 }}
