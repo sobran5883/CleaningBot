@@ -17,6 +17,11 @@ const NavbarMenu = [
     path: "/hardware",
   },
   {
+    id: 2,
+    title: "Features",
+    path: "/features",
+  },
+  {
     id: 3,
     title: "Our Team",
     path: "/team",

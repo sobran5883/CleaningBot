@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Team from "./pages/Team";
 import Usecase from "./pages/Usecase/Usecase";
 import Hardware from "./pages/Hardware";
+import Features from "./pages/Features";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="" element={<Home />} />
           <Route path="/team" element={< Team/>} />
           <Route path="/usecase" element={< Usecase />} />
+          <Route path="/features" element={< Features />} />
           <Route path="/hardware" element={< Hardware />} />
         </Route>
       </Routes>
